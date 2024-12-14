@@ -27,42 +27,25 @@
       </div>
     </header>
 
-    <section class="portfolio-section">
-      <a name="portfolio"></a>
-      <h3>Portfolio</h3>
-      <p class="subtitle">Our featured works</p>
-
-      <!-- free Images used from https://www.pexels.com/ -->
-      <ul class="portfolio-list">
-        <li class="item">
-          <a href="images/portfolio-img1.jpg">
-            <img src="images/portfolio-img1.jpg" alt="portfolio Image 1" />
-          </a>
-        </li>
-        <li class="item">
-          <a href="images/portfolio-img2.jpg">
-            <img src="images/portfolio-img2.jpg" alt="portfolio Image 2" />
-          </a>
-        </li>
-        <li class="item">
-          <a href="images/portfolio-img3.jpg">
-            <img src="images/portfolio-img3.jpg" alt="portfolio image 3" />
-          </a>
-        </li>
-        <div class="clear"></div>
-      </ul>
-    </section>
-
-    <section class="book-section">
-      <h3>Book Now !</h3>
-      <p class="subtitle">We will contact you shortly.</p>
-      <form>
-        <input type="text" id="name" placeholder="Your Name" />
-        <input type="email" id="email" placeholder="Email Address" />
-        <button type="button" title="Submit" onclick="validateForm()">
-          Book
-        </button>
-      </form>
+    <section class="contact-section">
+      <div class="wrapper">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Please fill out the form below or use the details provided to get in touch with us.</p>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Eternal Moments Photography</h3>
+            <p><strong>Address:</strong> Opera House, Harbour Bridge Lane, Sydney, NSW 2000, Australia</p>
+            <p><strong>Phone:</strong> (02) 1234-5678</p>
+            <p><strong>Email:</strong> g'day@eternalmoments.com.au</p>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <footer>
